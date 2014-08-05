@@ -1,24 +1,33 @@
+.. -*- coding: utf-8 -*-
+
 ==================================
 Example of reStructuredText markup
 ==================================
 
-------
-Tables
-------
+:Author: Nathaniel Beaver
+:Date: $Date: 2014-08-01 (Friday, 1 August 2014) $
+:Copyright: This document has been placed in the public domain.
 
-+---+---+
-| 1 | 2 |
-+===+===+
-| 3 | 4 |
-+---+---+
+This is meant to be read in source form.
 
-::
+------------------
+Hyperlinks to URLs
+------------------
 
-    +---+---+
-    | 1 | 2 |
-    +===+===+
-    | 3 | 4 |
-    +---+---+
+The `reStructuredText specification`_ is on Sourceforge.
+
+The `Wikipedia page`_ on reST is also helpful, as is the `Sphinx`_ documentation generator page.
+
+.. _Sphinx: http://sphinx-doc.org/rest.html
+.. _reStructuredText specification: http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
+.. _Wikipedia page: https://en.wikipedia.org/wiki/ReStructuredText
+
+`Inline hyperlinks <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#hyperlink-references>` are also possible,
+although they tend to clutter up the text.
+
+`Anonymous hyperlinks`__ are also possible if you are just too lazy to name your hyperlinks.
+
+__ http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#anonymous-hyperlinks
 
 ----------------------
 Linking to other files
@@ -69,3 +78,22 @@ Citations are easy.[jdoe2014]_
 
 .. [#] Especially limburger cheese.
 .. [jdoe2014] Doe, John. Bulletin of Stuff. 2104.
+
+------
+Tables
+------
+
++---+---+
+| 1 | 2 |
++===+===+
+| 3 | 4 |
++---+---+
+
+::
+
+    +---+---+
+    | 1 | 2 |
+    +===+===+
+    | 3 | 4 |
+    +---+---+
+
