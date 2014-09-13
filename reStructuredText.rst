@@ -26,6 +26,8 @@ The `Wikipedia page`_ on reST is also helpful, as is the `Sphinx`_ documentation
 although they tend to clutter up the text.
 
 `Anonymous hyperlinks`__ are also possible if you are just too lazy to name your hyperlinks.
+They are assigned by the order of the links in the document,
+unlike named hyperlink targets where order is irrelevant.
 
 __ http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#anonymous-hyperlinks
 
@@ -96,4 +98,25 @@ Tables
     +===+===+
     | 3 | 4 |
     +---+---+
+
+---------------
+Bulleted lists.
+---------------
+
+- One
+  example
+- using hyphens.
+
+* Another
+  using
+* asterisks.
+
++ Another
+  using
++ plus signs.
+
++ Nesting levels: 1st.
+  * 2nd level.
+    - 3rd level.
+      * 4th level.
 
