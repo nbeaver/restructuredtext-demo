@@ -182,7 +182,7 @@ Any language benefits from the ability to comment things out::
 .. This won't appear,
    since we used two dots.
 
-If we use, e.g. ``rst2html``, we get this::
+If we use, e.g. ``rst2html``, we get this output::
 
     <!-- This won't appear,
     since we used two dots. -->
