@@ -93,7 +93,7 @@ Example of turning an ``rst`` markup document into HTML::
 Math markup
 -----------
 
-The quadrative equation, :math:`a x^2 + b x + c = 0`, has two solutions, :math:`x = \frac{-b \pm \sqrt{b^2 - 4 a c} }{2 a}`.
+The quadratic equation, :math:`a x^2 + b x + c = 0`, has two solutions, :math:`x = \frac{-b \pm \sqrt{b^2 - 4 a c} }{2 a}`.
 
 The Einstein field equations.
 
