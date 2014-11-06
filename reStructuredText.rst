@@ -8,7 +8,12 @@ Example of reStructuredText markup
 :Date: $Date: 2014-08-01 (Friday, 1 August 2014) $
 :Copyright: This document has been placed in the public domain.
 
-This is meant to be read in source form.
+If you are reading an output format like HTML,
+the source file is `reStructuredText.rst <../reStructuredText.rst>`_.
+
+This is meant to be a template,
+not a tutorial,
+so reading the output is not very helpful.
 
 .. contents::
 
@@ -16,38 +21,51 @@ This is meant to be read in source form.
 Hyperlinks to URLs
 ------------------
 
-The `reStructuredText specification`_ is on Sourceforge.
+The `reStructuredText specification`_ is on Sourceforge,
+as is the `docutils Quick Reference`_.
 
-The `Wikipedia page`_ on reST is also helpful, as is the `Sphinx`_ documentation generator page.
+The `Wikipedia page`_ on reST is also helpful,
+as is the `Sphinx`_ documentation generator page.
 
 .. _Sphinx: http://sphinx-doc.org/rest.html
 .. _reStructuredText specification: http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
 .. _Wikipedia page: https://en.wikipedia.org/wiki/ReStructuredText
+.. _docutils Quick Reference: http://docutils.sourceforge.net/docs/user/rst/quickref.html
 
 `Inline hyperlinks <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#hyperlink-references>`_ are also possible,
 although they tend to clutter up the text.
 
-`Anonymous hyperlinks`__ are also possible if you are just too lazy to name your hyperlinks or if you want `two hyperlinks with the same text`_.
+`Anonymous hyperlinks`__ are also possible if you are just too lazy to name your hyperlinks,
+or if you want two hyperlinks with the same text (e.g. `can`__ or `can`__?).
+
+__ http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#anonymous-hyperlinks
+__ https://en.wiktionary.org/wiki/can#Verb
+__ https://en.wiktionary.org/wiki/can#Noun
+
 They are assigned by the order of the links in the document,
 unlike named hyperlink targets where order is irrelevant.
 
-__ http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#anonymous-hyperlinks
-.. _two hyperlinks with the same text: http://stackoverflow.com/questions/5464627/how-to-have-same-text-in-two-links-with-restructured-text
-
 ----------------------
-Linking to other files
+Linking to local files
 ----------------------
 
-Linking to the `docutils Quick Reference`_.
+Relative and absolute links both work.
 
-Linking to `this file`_.
+For example, we can make a relative link to `the source file`_ in the parent directory.
 
-.. _this file: reStructuredText.rst
-.. _docutils Quick Reference: http://docutils.sourceforge.net/docs/user/rst/quickref.html
+.. _the source file: ../reStructuredText.rst
 
-`Makefile.template <./Makefile.template>`_
+Absolute links are done similarly.
 
-`python-text-filter.py <python-text-filter.py>`_
+`Root directory`_
+
+.. _Root directory: /
+
+- `/etc/ </etc/>`_
+- `/home/ </home/>`_
+- `/tmp/ </tmp/>`_
+- `/var/ </var/>`_
+- `C:/Users <C:/Users>`_
 
 ----------------------------------------
 Internal hyperlinks and cross references
@@ -81,9 +99,9 @@ blah
 blah
 blah
 
-------------------------------------------
-Literal blocks (code, verbatim, monospace)
-------------------------------------------
+-------------------------------------------------
+Literal blocks (a.k.a. code, verbatim, monospace)
+-------------------------------------------------
 
 Example of turning an ``rst`` markup document into HTML::
 
@@ -99,11 +117,6 @@ The Einstein field equations.
 
 .. math::
    G_{\mu\nu} \equiv R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} = \frac{8 \pi G}{c^4} T_{\mu\nu}
-
-::
-
-    .. math::
-       G_{\mu\nu} \equiv R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} = \frac{8 \pi G}{c^4} T_{\mu\nu}
 
 -----------------------
 Footnotes and citations
@@ -126,19 +139,37 @@ Citations with the label instead of a number are easy. [jdoe2014]_
 Tables
 ------
 
-+---+---+
-| 1 | 2 |
+A multiplication table.
+
++---+---+---+---+
+|   | 1 | 2 | 3 |
++---+---+---+---+
+| 1 | 1 | 2 | 3 |
++---+---+---+---+
+| 2 | 2 | 4 | 6 |
++---+---+---+---+
+| 3 | 3 | 6 | 9 |
++---+---+---+---+
+
+Headers
+
++-------+
+| X | Y |
 +===+===+
-| 3 | 4 |
+| 1 | 1 |
++---+---+
+| 2 | 4 |
++---+---+
+| 3 | 9 |
 +---+---+
 
-::
+Lists in tables
 
-    +---+---+
-    | 1 | 2 |
-    +===+===+
-    | 3 | 4 |
-    +---+---+
++-------+-------+
+| - 1st | - 4th |
+| - 2nd | - 5th |
+| - 3rd | - 6th |
++-------+-------+
 
 ---------------
 Bulleted lists.
@@ -173,16 +204,17 @@ Bulleted lists.
 Comments
 --------
 
-Any language benefits from the ability to comment things out::
-
-    .. This won't appear,
-       since we used two dots.
-
+Any language benefits from the ability to comment things out.
 
 .. This won't appear,
    since we used two dots.
 
-If we use, e.g. ``rst2html``, we get this output::
+If we use ``rst2html``, we get this output::
 
     <!-- This won't appear,
     since we used two dots. -->
+
+If we use ``rst2latex``, we get this output::
+
+    % This won't appear,
+    % since we used two dots.
