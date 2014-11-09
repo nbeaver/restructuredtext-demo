@@ -36,9 +36,11 @@ as is the `Sphinx`_ documentation generator page.
 although they tend to clutter up the text.
 
 `Anonymous hyperlinks`__ are also possible if you are just too lazy to name your hyperlinks,
-or if you want two hyperlinks with the same text (e.g. `can`__ or `can`__?).
+or if you want two hyperlinks with the same text (e.g. `Georgia`__ or `Georgia`__, `can`__ or `can`__).
 
 __ http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#anonymous-hyperlinks
+__ https://en.wiktionary.org/wiki/Georgia#Etymology_1
+__ https://en.wiktionary.org/wiki/Georgia#Etymology_2
 __ https://en.wiktionary.org/wiki/can#Verb
 __ https://en.wiktionary.org/wiki/can#Noun
 
@@ -218,3 +220,4 @@ If we use ``rst2latex``, we get this output::
 
     % This won't appear,
     % since we used two dots.
+
