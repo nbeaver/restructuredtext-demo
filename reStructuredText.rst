@@ -126,15 +126,26 @@ Footnotes and citations
 
 Cheese is delicious. [#cheese]_
 
-Labeled footnotes? I'm too lazy. [#]_
+Labeled footnotes? Why bother? [#]_
 
-Symbols are cool. [*]_
+There are ten symbols to run through before it starts doubling them up.
+[*]_ [*]_ [*]_ [*]_ [*]_ [*]_ [*]_ [*]_ [*]_ [*]_ [*]_
 
 Citations with the label instead of a number are easy. [jdoe2014]_
 
 .. [#cheese] Especially limburger cheese.
-.. [#] Yeah, I'll add the label later.
-.. [*] Yup, numbers are just lame.
+.. [#] You can always add a label later.
+.. [*] Asterisk `*`.
+.. [*] Dagger `†`.
+.. [*] Double dagger `‡`.
+.. [*] Section sign `§`.
+.. [*] Pilcrow/paragraph sign `¶`.
+.. [*] Number sign `#`.
+.. [*] Black spade suit `♠`.
+.. [*] Black heart suit `♥`.
+.. [*] Black diamond suit `♠`.
+.. [*] Black club suit `♣`.
+.. [*] Double asterisk `**`.
 .. [jdoe2014] Doe, John. Bulletin of Stuff. 2104.
 
 ------
