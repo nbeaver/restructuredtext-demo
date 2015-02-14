@@ -128,7 +128,7 @@ Cheese is delicious. [#cheese]_
 
 Labeled footnotes? Why bother? [#]_
 
-There are ten symbols to run through before it starts doubling them up.
+Symbolic footnotes: there are ten symbols to run through before it starts doubling them up.
 [*]_ [*]_ [*]_ [*]_ [*]_ [*]_ [*]_ [*]_ [*]_ [*]_ [*]_
 
 Citations with the label instead of a number are easy. [jdoe2014]_
