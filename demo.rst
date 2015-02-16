@@ -15,6 +15,14 @@ This is meant to be read from the source file.
 It is more of a template than a tutorial,
 and reading the output is not very helpful.
 
+See also the official reStructuredText demo:
+
+http://docutils.sourceforge.net/docs/user/rst/demo.txt
+
+http://docutils.sourceforge.net/docs/user/rst/demo.html
+
+.. /usr/share/doc/docutils-doc/docs/user/rst/demo.txt
+
 .. contents::
 
 ------------------
@@ -25,7 +33,7 @@ The `reStructuredText specification`_ is on Sourceforge,
 as is the `docutils Quick Reference`_.
 
 The `Wikipedia page`_ on reST is also helpful,
-as is the `Sphinx`_ documentation generator page.
+as is the Sphinx_ documentation generator page.
 
 .. _Sphinx: http://sphinx-doc.org/rest.html
 .. _reStructuredText specification: http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
@@ -36,7 +44,7 @@ as is the `Sphinx`_ documentation generator page.
 although they tend to clutter up the text.
 
 `Anonymous hyperlinks`__ are also possible if you are just too lazy to name your hyperlinks,
-or if you want two hyperlinks with the same text (e.g. `Georgia`__ or `Georgia`__, `can`__ or `can`__).
+or if you want two hyperlinks with the same text (e.g. Georgia__ or Georgia__, can__ or can__).
 
 __ http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#anonymous-hyperlinks
 __ https://en.wiktionary.org/wiki/Georgia#Etymology_1
