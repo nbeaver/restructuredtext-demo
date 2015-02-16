@@ -9,7 +9,7 @@ Example of reStructuredText markup
 :Copyright: This document has been placed in the public domain.
 
 If you are reading an output format like HTML,
-the source file is `demo.rst <../demo.rst>`_.
+the source file is `README.rst <../README.rst>`_.
 
 This is meant to be read from the source file.
 It is more of a template than a tutorial,
@@ -22,6 +22,9 @@ http://docutils.sourceforge.net/docs/user/rst/demo.txt
 http://docutils.sourceforge.net/docs/user/rst/demo.html
 
 .. /usr/share/doc/docutils-doc/docs/user/rst/demo.txt
+
+Run the Makefile to generate all the various output formats,
+or ``make open`` to open them with the default applications.
 
 .. contents::
 
@@ -62,9 +65,9 @@ Linking to local files
 Relative and absolute links both work.
 
 For example, we can make a relative link to `the source file`_ in the parent directory,
-or link to the same `file inline <../demo.rst>`_.
+or link to the same `file inline <../README.rst>`_.
 
-.. _the source file: ../demo.rst
+.. _the source file: ../README.rst
 
 
 Absolute links are done similarly.

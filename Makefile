@@ -1,18 +1,18 @@
-all: demo.rst Makefile
+all: README.rst Makefile
 	mkdir --parents out
-	rst2html  demo.rst out/demo.html
-	rst2latex demo.rst out/demo.tex
-	rst2man   demo.rst out/demo.man
-	rst2odt   demo.rst out/demo.odt
-	rst2s5    demo.rst out/demo_s5.html
-	rst2xml   demo.rst out/demo.xml
-	rst2xetex demo.rst out/demo.xetex
+	rst2html  README.rst out/README.html
+	rst2latex README.rst out/README.tex
+	rst2man   README.rst out/README.man
+	rst2odt   README.rst out/README.odt
+	rst2s5    README.rst out/README_s5.html
+	rst2xml   README.rst out/README.xml
+	rst2xetex README.rst out/README.xetex
 
 open:
-	xdg-open out/demo.html
-	xdg-open out/demo.tex
-	xdg-open out/demo.odt
-	xdg-open out/demo_s5.html
-	xdg-open out/demo.xml
-	xdg-open out/demo.xetex
+	xdg-open out/README.html
+	xdg-open out/README.tex
+	xdg-open out/README.odt
+	xdg-open out/README_s5.html
+	xdg-open out/README.xml
+	xdg-open out/README.xetex
 	# TODO: preview manpage
