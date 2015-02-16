@@ -11,8 +11,9 @@ Example of reStructuredText markup
 If you are reading an output format like HTML,
 the source file is `demo.rst <../demo.rst>`_.
 
-This is meant to be more of a template than a tutorial,
-so reading the output is not very helpful.
+This is meant to be read from the source file.
+It is more of a template than a tutorial,
+and reading the output is not very helpful.
 
 .. contents::
 
@@ -120,6 +121,23 @@ The Einstein field equations.
 
 .. math::
    G_{\mu\nu} \equiv R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} = \frac{8 \pi G}{c^4} T_{\mu\nu}
+
+You can also use MathJax by defining a raw-latex directive.
+
+.. role:: raw-latex(raw)
+    :format: latex html
+
+.. raw:: html
+
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+
+Inline math is done like this: :raw-latex:`\( \vec{F} = e \vec{v} \times \vec{B} \)`
+
+Displayed math is done like this:
+
+.. raw:: latex html
+
+  \[ e \vec{v} \times \vec{B} = m \frac{d \vec{v}}{dt} \]
 
 -----------------------
 Footnotes and citations
