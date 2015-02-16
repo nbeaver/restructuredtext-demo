@@ -23,8 +23,8 @@ http://docutils.sourceforge.net/docs/user/rst/demo.html
 
 .. /usr/share/doc/docutils-doc/docs/user/rst/demo.txt
 
-Run the Makefile to generate all the various output formats,
-or ``make open`` to open them with the default applications.
+Run the `Makefile <../Makefile>`_ to generate all the various output formats,
+or ``make open-all`` to open them with the default applications.
 
 .. contents::
 
