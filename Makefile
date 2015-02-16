@@ -1,17 +1,18 @@
-all: reStructuredText.rst
-	rst2html  reStructuredText.rst out/reStructuredText.html
-	rst2latex reStructuredText.rst out/reStructuredText.tex
-	rst2man   reStructuredText.rst out/reStructuredText.man
-	rst2odt   reStructuredText.rst out/reStructuredText.odt
-	rst2s5    reStructuredText.rst out/reStructuredText_s5.html
-	rst2xml   reStructuredText.rst out/reStructuredText.xml
-	rst2xetex reStructuredText.rst out/reStructuredText.xetex
+all: demo.rst Makefile
+	mkdir --parents out
+	rst2html  demo.rst out/demo.html
+	rst2latex demo.rst out/demo.tex
+	rst2man   demo.rst out/demo.man
+	rst2odt   demo.rst out/demo.odt
+	rst2s5    demo.rst out/demo_s5.html
+	rst2xml   demo.rst out/demo.xml
+	rst2xetex demo.rst out/demo.xetex
 
 open:
-	xdg-open out/reStructuredText.html
-	xdg-open out/reStructuredText.tex
-	xdg-open out/reStructuredText.odt
-	xdg-open out/reStructuredText_s5.html
-	xdg-open out/reStructuredText.xml
-	xdg-open out/reStructuredText.xetex
+	xdg-open out/demo.html
+	xdg-open out/demo.tex
+	xdg-open out/demo.odt
+	xdg-open out/demo_s5.html
+	xdg-open out/demo.xml
+	xdg-open out/demo.xetex
 	# TODO: preview manpage

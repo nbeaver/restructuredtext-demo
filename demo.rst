@@ -9,10 +9,9 @@ Example of reStructuredText markup
 :Copyright: This document has been placed in the public domain.
 
 If you are reading an output format like HTML,
-the source file is `reStructuredText.rst <../reStructuredText.rst>`_.
+the source file is `demo.rst <../demo.rst>`_.
 
-This is meant to be a template,
-not a tutorial,
+This is meant to be more of a template than a tutorial,
 so reading the output is not very helpful.
 
 .. contents::
@@ -53,9 +52,11 @@ Linking to local files
 
 Relative and absolute links both work.
 
-For example, we can make a relative link to `the source file`_ in the parent directory.
+For example, we can make a relative link to `the source file`_ in the parent directory,
+or link to the same `file inline <../demo.rst>`_.
 
-.. _the source file: ../reStructuredText.rst
+.. _the source file: ../demo.rst
+
 
 Absolute links are done similarly.
 
