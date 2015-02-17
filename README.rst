@@ -10,10 +10,12 @@ Example of reStructuredText markup
 
 If you are reading an output format like HTML,
 the source file is `README.rst <../README.rst>`_.
+If you are reading on Github,
+the source file is `README.rst <./README.rst>`_.
 
 This is meant to be read from the source file.
 It is more of a template than a tutorial,
-and reading the output is not very helpful.
+and reading the output is not as helpful.
 
 See also the official reStructuredText demo:
 
@@ -114,6 +116,19 @@ blah
 blah
 blah
 
+--------
+Sections
+--------
+
+From the documentation:
+
+- Underline is different than underline and overline.
+- Do not indent the title for underline-only section titles.
+- Valid section adornment characters: ``! " # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \ ] ^ _ ` { | } ~`` 
+- Reccomended section adornment characters: ``= - ` : . ' " ~ ^ _ * + #``
+
+http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#sections
+
 -------------------------------------------------
 Literal blocks (a.k.a. code, verbatim, monospace)
 -------------------------------------------------
@@ -194,9 +209,9 @@ A multiplication table.
 | 3 | 3 | 6 | 9 |
 +---+---+---+---+
 
-Headers
+Tables with a header row.
 
-+-------+
++---+---+
 | X | Y |
 +===+===+
 | 1 | 1 |
@@ -206,7 +221,7 @@ Headers
 | 3 | 9 |
 +---+---+
 
-Lists in tables
+Lists in tables.
 
 +-------+-------+
 | - 1st | - 4th |
