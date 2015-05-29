@@ -9,9 +9,9 @@ Example of reStructuredText markup
 :Copyright: This document has been placed in the public domain.
 
 If you are reading an output format like HTML,
-the source file is `README.rst <../README.rst>`_.
+the source file is `<../README.rst>`_.
 If you are reading on Github,
-the source file is `README.rst <./README.rst>`_.
+the source file is `<./README.rst>`_.
 
 This is meant to be read from the source file.
 It is more of a template than a tutorial,
