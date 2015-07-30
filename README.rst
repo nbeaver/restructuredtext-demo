@@ -277,3 +277,24 @@ If we use ``rst2latex``, we get this output::
     % This won't appear,
     % since we used two dots.
 
+-------
+Quoting
+-------
+
+    This is a block quote.
+    It is indented, and does not preserve line-breaks.
+    
+    If you want to start a new paragraph, you must leave a blank line.
+
+| This is a line block.
+| It preserves line-breaks, and is useful for poems and other verse.
+
+    | This is an indented line block.
+    | It preserves line-breaks, and is useful for poems and other verse.
+
+::
+
+    This is a literal block.
+    It is indented, uses monspace font, and preserves line-breaks.
+    Don't forget to leave a blank space before the leading ::.
+
