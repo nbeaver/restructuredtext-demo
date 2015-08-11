@@ -182,6 +182,9 @@ Symbolic footnotes: there are ten symbols to run through before it starts doubli
 
 Citations with the label instead of a number are easy. [jdoe2014]_
 
+Note that the location of a footnote's target
+does affect the placement of the footnotes in the document.
+
 .. [#cheese] Especially limburger cheese.
 .. [#] You can always add a label later.
 .. [*] Asterisk `*`.
