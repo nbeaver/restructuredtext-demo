@@ -206,15 +206,29 @@ Tables
 
 A multiplication table.
 
-+---+---+---+---+
-|   | 1 | 2 | 3 |
-+---+---+---+---+
-| 1 | 1 | 2 | 3 |
-+---+---+---+---+
-| 2 | 2 | 4 | 6 |
-+---+---+---+---+
-| 3 | 3 | 6 | 9 |
-+---+---+---+---+
++---+---+---+---+---+
+|   | 1 | 2 | 3 | 4 |
++---+---+---+---+---+
+| 1 | 1 | 2 | 3 | 4 |
++---+---+---+---+---+
+| 2 | 2 | 4 | 6 | 8 |
++---+---+---+---+---+
+| 3 | 3 | 6 | 9 | 12|
++---+---+---+---+---+
+| 4 | 4 | 8 | 12| 16|
++---+---+---+---+---+
+
+A less laborious multiplication table;
+the first cell cannot be empty.
+
+= = = == ==
+x 1 2 3  4
+1 1 2 3  4
+2 2 4 3  8
+3 3 6 9  12
+4 4 8 12 16
+= = = == ==
+
 
 Tables with a header row.
 
@@ -235,6 +249,8 @@ Lists in tables.
 | - 2nd | - 5th |
 | - 3rd | - 6th |
 +-------+-------+
+
+
 
 ---------------
 Bulleted lists.
@@ -305,3 +321,4 @@ Quoting
     It is indented, uses monspace font, and preserves line-breaks.
     Don't forget to leave a blank space before the leading ::.
 
+.. TODO: substitutions and substitution definitions.
