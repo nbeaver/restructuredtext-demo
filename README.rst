@@ -64,6 +64,14 @@ __ https://en.wiktionary.org/wiki/can#Noun
 They are assigned by the order of the links in the document,
 unlike named hyperlink targets where order is irrelevant.
 
+Some characters must be escaped in links.
+
+For example, backticks (\`) must be escaped in both the link text and the target,
+a leading underscore (_) should be escape in the target,
+and colons (:) must be escaped anywhere in the target,
+
+and `_`_
+
 ----------------------
 Linking to local files
 ----------------------
