@@ -9,9 +9,9 @@ Example of reStructuredText markup
 :Copyright: This document has been placed in the public domain.
 
 If you are reading an output format like HTML,
-the source file is `<../README.rst>`_.
+the source file is `<../readme.rst>`_.
 If you are reading on Github,
-the source file is `<./README.rst>`_.
+the source file is `<./readme.rst>`_.
 
 This is meant to be read from the source file.
 It is more of a template than a tutorial,
@@ -79,9 +79,9 @@ Linking to local files
 Relative and absolute links both work.
 
 For example, we can make a relative link to `the source file`_ in the parent directory,
-or link to the same `file inline <../README.rst>`_.
+or link to the same `file inline <../readme.rst>`_.
 
-.. _the source file: ../README.rst
+.. _the source file: ../readme.rst
 
 
 Absolute links are done similarly.
