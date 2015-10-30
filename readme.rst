@@ -91,11 +91,11 @@ Absolute links are done similarly.
 
 .. _Root directory: /
 
-- `/etc/ </etc/>`_
-- `/home/ </home/>`_
-- `/tmp/ </tmp/>`_
-- `/var/ </var/>`_
-- `C:/Users <C:/Users>`_
+- `</etc/>`_
+- `</home/>`_
+- `</tmp/>`_
+- `</var/>`_
+- `<C:/Users>`_
 
 ----------------------------------------
 Internal hyperlinks and cross references
