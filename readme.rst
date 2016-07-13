@@ -71,6 +71,7 @@ For example, backticks (``\``) must be escaped in both the link text and the tar
 a leading underscore (``_``) should be escaped in the target,
 and colons (``:``) must be escaped anywhere in the target.
 
+
 .. TODO: examples of these rules and why they make sense.
 
 ----------------------
