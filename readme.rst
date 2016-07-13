@@ -228,7 +228,7 @@ A multiplication table.
 +---+---+---+---+---+
 
 A less laborious multiplication table;
-the first cell cannot be empty.
+the first cell cannot be empty or have multiple lines.
 
 = = = == ==
 x 1 2 3  4
