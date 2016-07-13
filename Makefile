@@ -67,3 +67,6 @@ open-all:
 	xdg-open out/pandoc-dzslides.html
 	xdg-open out/pandoc-s5.html
 	xdg-open out/pandoc-rtf.rtf
+
+clean :
+	rm -rf out/
