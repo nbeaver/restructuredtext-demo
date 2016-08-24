@@ -106,9 +106,7 @@ Linking to the section on `how to do math`_.
 
 .. _how to do math: `Math markup`_
 
-Linking to `the title`_.
-
-.. _the title: `Example of reStructuredText markup`_
+Inline link to `the title <Example of reStructuredText markup_>`_.
 
 Linking to the section on `unordered/bulleted lists`_.
 
