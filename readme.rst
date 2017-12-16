@@ -80,9 +80,20 @@ but it does in the target.
 .. _LaTeX\: a document preparation system: https://www.worldcat.org/title/latex-a-document-preparation-system-users-guide-and-reference-manual/oclc/29225162
 
 To link to `_why`_,
-the leading underscore must be escaped.
+the leading underscore does *not* need to be escaped in the link text,
+but it does in the target.
 
 .. _\_why: https://en.wikipedia.org/wiki/Why_the_lucky_stiff
+
+To link to `C:\\Program Files\\`_,
+the backslash must be escaped in *both* the link text and the target.
+
+.. _C:\\Program Files\\: https://en.wikipedia.org/wiki/Program_Files
+
+The `backtick (\`)`_ must be escaped in the link text,
+but does not need to be escaped in the target.
+
+.. _backtick (`): https://en.wikipedia.org/wiki/Grave_accent
 
 ----------------------
 Linking to local files
