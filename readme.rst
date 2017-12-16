@@ -79,6 +79,10 @@ but it does in the target.
 
 .. _LaTeX\: a document preparation system: https://www.worldcat.org/title/latex-a-document-preparation-system-users-guide-and-reference-manual/oclc/29225162
 
+To link to `_why`_,
+the leading underscore must be escaped.
+
+.. _\_why: https://en.wikipedia.org/wiki/Why_the_lucky_stiff
 
 ----------------------
 Linking to local files
