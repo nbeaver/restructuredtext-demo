@@ -66,13 +66,19 @@ unlike named hyperlink targets where order is irrelevant.
 
 Some characters must be escaped in links,
 including some characters in URLs.
-
-For example, backticks (``\``) must be escaped in both the link text and the target,
-a leading underscore (``_``) should be escaped in the target,
+Backslashes (``\``) must be escaped in both the link text and the target,
+a leading underscore (``_``) must be escaped in the target,
 and colons (``:``) must be escaped anywhere in the target.
 
+.. TODO: finish examples of these rules and why they make sense.
 
-.. TODO: examples of these rules and why they make sense.
+For example, to link to the title
+"`LaTeX: a document preparation system`_",
+the colon does *not* need to be escaped in the link text,
+but it does in the target.
+
+.. _LaTeX\: a document preparation system: https://www.worldcat.org/title/latex-a-document-preparation-system-users-guide-and-reference-manual/oclc/29225162
+
 
 ----------------------
 Linking to local files
