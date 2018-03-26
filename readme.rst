@@ -50,7 +50,7 @@ as is the Sphinx_ documentation generator page.
 .. _docutils Quick Reference: http://docutils.sourceforge.net/docs/user/rst/quickref.html
 
 `Inline hyperlinks <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#hyperlink-references>`_ are also possible,
-although they tend to clutter up the text.
+although they tend to clutter up the source markup.
 
 `Anonymous hyperlinks`__ are also possible if you are just too lazy to name your hyperlinks,
 or if you want two hyperlinks with the same text (e.g. Georgia__ or Georgia__, can__ or can__).
