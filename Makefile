@@ -111,11 +111,5 @@ out/pandoc-s5.html : readme.rst
 out/pandoc-rtf.rtf : readme.rst
 	pandoc --from=rst --to=rtf          readme.rst --output=out/pandoc-rtf.rtf
 
-open-all : $(DOCUTIL $(PANDOC)
-	for filename in $(DOCUTIL) $(PANDOC) ; \
-	do \
-	    xdg-open $${filename} ; \
-	done
-
 clean :
 	rm -rf -- $(DOCUTIL) $(PANDOC)
