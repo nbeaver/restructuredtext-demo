@@ -112,4 +112,6 @@ out/pandoc-rtf.rtf : readme.rst
 	pandoc --from=rst --to=rtf          readme.rst --output=out/pandoc-rtf.rtf
 
 clean :
-	rm -rf -- $(DOCUTIL) $(PANDOC)
+	rm -f -- $(DOCUTIL) $(PANDOC)
+	# Get rid of pandoc leftovers.
+	rm -rf -- out/ui
