@@ -1,5 +1,39 @@
-DOCUTIL = out/readme.html out/readme.man out/readme.odt out/readme_s5.html out/readme.tex out/readme.xetex out/readme.xml
-PANDOC = out/pandoc-asciidoc.txt out/pandoc-beamer.tex out/pandoc-context.tex out/pandoc-docbook.xml out/pandoc-docx.docx out/pandoc-dzslides.html out/pandoc-epub.epub out/pandoc-html5.html out/pandoc-json.json out/pandoc-latex.tex out/pandoc-man.man out/pandoc-markdown.md out/pandoc-mediawiki.txt out/pandoc-native.hs out/pandoc-odt.odt out/pandoc-opendocument.xml out/pandoc-org.org out/pandoc-plain.txt out/pandoc-rst.rst out/pandoc-rtf.rtf out/pandoc-s5.html out/pandoc-slideous.html out/pandoc-slidy.html out/pandoc-texinfo.texinfo out/pandoc-textile.txt out/pandoc-xhtml.html
+DOCUTIL = \
+    out/readme.html \
+    out/readme.man \
+    out/readme.odt \
+    out/readme_s5.html \
+    out/readme.tex \
+    out/readme.xetex \
+    out/readme.xml
+
+PANDOC = \
+    out/pandoc-asciidoc.txt \
+    out/pandoc-beamer.tex \
+    out/pandoc-context.tex \
+    out/pandoc-docbook.xml \
+    out/pandoc-docx.docx \
+    out/pandoc-dzslides.html \
+    out/pandoc-epub.epub \
+    out/pandoc-html5.html \
+    out/pandoc-json.json \
+    out/pandoc-latex.tex \
+    out/pandoc-man.man \
+    out/pandoc-markdown.md \
+    out/pandoc-mediawiki.txt \
+    out/pandoc-native.hs \
+    out/pandoc-odt.odt \
+    out/pandoc-opendocument.xml \
+    out/pandoc-org.org \
+    out/pandoc-plain.txt \
+    out/pandoc-rst.rst \
+    out/pandoc-rtf.rtf \
+    out/pandoc-s5.html \
+    out/pandoc-slideous.html \
+    out/pandoc-slidy.html \
+    out/pandoc-texinfo.texinfo \
+    out/pandoc-textile.txt \
+    out/pandoc-xhtml.html
 
 all: readme.rst Makefile $(DOCUTIL) $(PANDOC)
 
