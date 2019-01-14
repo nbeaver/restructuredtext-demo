@@ -111,38 +111,10 @@ out/pandoc-rtf.rtf : readme.rst
 	pandoc --from=rst --to=rtf          readme.rst --output=out/pandoc-rtf.rtf
 
 open-all:
-	xdg-open out/readme.html
-	xdg-open out/readme.tex
-	xdg-open out/readme.odt
-	xdg-open out/readme_s5.html
-	xdg-open out/readme.xml
-	xdg-open out/readme.xetex
-	xdg-open out/pandoc-native.hs
-	xdg-open out/pandoc-json.json
-	xdg-open out/pandoc-plain.txt
-	xdg-open out/pandoc-markdown.md
-	xdg-open out/pandoc-rst.rst
-	xdg-open out/pandoc-xhtml.html
-	xdg-open out/pandoc-html5.html
-	xdg-open out/pandoc-latex.tex
-	xdg-open out/pandoc-beamer.tex
-	xdg-open out/pandoc-context.tex
-	xdg-open out/pandoc-man.man
-	xdg-open out/pandoc-mediawiki.txt
-	xdg-open out/pandoc-texfile.txt
-	xdg-open out/pandoc-org.org
-	xdg-open out/pandoc-texinfo.texinfo
-	xdg-open out/pandoc-docbook.xml
-	xdg-open out/pandoc-opendocument.xml
-	xdg-open out/pandoc-odt.odt
-	xdg-open out/pandoc-docx.docx
-	xdg-open out/pandoc-epub.epub
-	xdg-open out/pandoc-asciidoc.txt
-	xdg-open out/pandoc-slidy.html
-	xdg-open out/pandoc-slideous.html
-	xdg-open out/pandoc-dzslides.html
-	xdg-open out/pandoc-s5.html
-	xdg-open out/pandoc-rtf.rtf
+	for filename in $(DOCUTIL) $(PANDOC) ; \
+	do \
+	    xdg-open $${filename} ; \
+	done
 
 clean :
 	rm -rf -- $(DOCUTIL) $(PANDOC)
