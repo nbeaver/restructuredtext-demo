@@ -29,8 +29,8 @@ Unofficial guides:
 
 http://www.trueelena.org/computers/articles/restructuredtext_for_fiction.html
 
-Run the `Makefile <../Makefile>`_ to generate all the various output formats,
-or ``make open-all`` to open them with the default applications.
+Run the `Makefile <../Makefile>`_ to generate HTML by default,
+or ``make all`` to generate all possible formats.
 
 .. contents::
 
