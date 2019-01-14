@@ -41,7 +41,7 @@ docutil : $(DOCUTIL)
 
 pandoc : $(PANDOC)
 
-all: readme.rst Makefile $(DOCUTIL) $(PANDOC)
+all: $(DOCUTIL) $(PANDOC)
 
 out/readme.html : readme.rst
 	rst2html  readme.rst out/readme.html
