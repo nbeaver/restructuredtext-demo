@@ -35,9 +35,9 @@ PANDOC = \
     out/pandoc-textile.txt \
     out/pandoc-xhtml.html
 
-all: readme.rst Makefile $(DOCUTIL) $(PANDOC)
-
 just-html : out/readme.html
+
+all: readme.rst Makefile $(DOCUTIL) $(PANDOC)
 
 out/readme.html : readme.rst
 	rst2html  readme.rst out/readme.html
