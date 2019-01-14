@@ -219,11 +219,26 @@ does affect the placement of the footnotes in the document.
 So if you want the footnotes to actually be at the bottom of the document,
 you have to put the target down there, too.
 
-.. [#cheese] Here's an example of a long footnote: limburger cheese.
+.. [#cheese] Here's an example of a multi-line footnote:
+   cheese varieties include
+   brie,
+   cheddar,
+   edom,
+   emmentaler,
+   jarlsberg,
+   fontina,
+   gouda,
+   limburger,
+   mascarpone,
+   parmesan,
+   provolone,
+   and more!
 .. [#] You can always add a label later.
 .. [*] Asterisk `*`.
 .. [*] Dagger `†`.
+
 .. [*] Double dagger `‡`.
+
 .. [*] Section sign `§`.
 .. [*] Pilcrow/paragraph sign `¶`.
 .. [*] Number sign `#`.
