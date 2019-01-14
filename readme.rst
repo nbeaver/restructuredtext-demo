@@ -205,16 +205,21 @@ Footnotes and citations
 Cheese is delicious. [#cheese]_
 
 Labeled footnotes? Why bother? [#]_
+(Don't forget that space between the body text and the ``[#]_``;
+you won't get an error, but the footnote won't show up.)
 
-Symbolic footnotes: there are ten symbols to run through before it starts doubling them up.
+Symbolic footnotes: there are ten symbols to run through
+before it starts doubling them up.
 [*]_ [*]_ [*]_ [*]_ [*]_ [*]_ [*]_ [*]_ [*]_ [*]_ [*]_
 
 Citations with the label instead of a number are easy. [jdoe2014]_
 
 Note that the location of a footnote's target
 does affect the placement of the footnotes in the document.
+So if you want the footnotes to actually be at the bottom of the document,
+you have to put the target down there, too.
 
-.. [#cheese] Especially limburger cheese.
+.. [#cheese] Here's an example of a long footnote: limburger cheese.
 .. [#] You can always add a label later.
 .. [*] Asterisk `*`.
 .. [*] Dagger `†`.
