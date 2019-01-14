@@ -57,6 +57,7 @@ out/readme.xml : readme.rst
 	rst2xml   readme.rst out/readme.xml
 out/readme.xetex : readme.rst
 	rst2xetex readme.rst out/readme.xetex
+
 out/pandoc-native.hs : readme.rst
 	pandoc --from=rst --to=native       readme.rst --output=out/pandoc-native.hs
 out/pandoc-json.json : readme.rst
