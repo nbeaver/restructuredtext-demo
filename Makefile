@@ -141,4 +141,4 @@ open-all:
 	xdg-open out/pandoc-rtf.rtf
 
 clean :
-	rm -rf out/*
+	rm -rf -- $(DOCUTIL) $(PANDOC)
