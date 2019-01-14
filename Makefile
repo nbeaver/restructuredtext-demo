@@ -3,6 +3,8 @@ PANDOC = out/pandoc-asciidoc.txt out/pandoc-beamer.tex out/pandoc-context.tex ou
 
 all: readme.rst Makefile $(DOCUTIL) $(PANDOC)
 
+just-html : out/readme.html
+
 out/readme.html : readme.rst
 	rst2html  readme.rst out/readme.html
 out/readme.tex : readme.rst
