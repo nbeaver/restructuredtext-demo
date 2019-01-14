@@ -37,6 +37,10 @@ PANDOC = \
 
 just-html : out/readme.html
 
+docutil : $(DOCUTIL)
+
+pandoc : $(PANDOC)
+
 all: readme.rst Makefile $(DOCUTIL) $(PANDOC)
 
 out/readme.html : readme.rst
