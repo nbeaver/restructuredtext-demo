@@ -1,4 +1,4 @@
-DOCUTIL = \
+DOCUTIL := \
     out/readme.html \
     out/readme.man \
     out/readme.odt \
@@ -7,7 +7,7 @@ DOCUTIL = \
     out/readme.xetex \
     out/readme.xml
 
-PANDOC = \
+PANDOC := \
     out/pandoc-asciidoc.txt \
     out/pandoc-beamer.tex \
     out/pandoc-context.tex \
