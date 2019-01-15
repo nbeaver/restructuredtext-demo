@@ -38,6 +38,10 @@ or ``make all`` to generate all possible formats.
 Hyperlinks to URLs
 ------------------
 
+Plain hyperlinks will usually work:
+
+https://en.wikipedia.org/wiki/ReStructuredText
+
 The `reStructuredText specification`_ is on Sourceforge,
 as is the `docutils Quick Reference`_.
 
@@ -49,11 +53,14 @@ as is the Sphinx_ documentation generator page.
 .. _Wikipedia page: https://en.wikipedia.org/wiki/ReStructuredText
 .. _docutils Quick Reference: http://docutils.sourceforge.net/docs/user/rst/quickref.html
 
-`Inline hyperlinks <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#hyperlink-references>`_ are also possible,
-although they tend to clutter up the source markup.
+`Inline hyperlinks <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#hyperlink-references>`_
+are also possible,
+although I find them harder to read in the source markup.
 
-`Anonymous hyperlinks`__ are also possible if you are just too lazy to name your hyperlinks,
-or if you want two hyperlinks with the same text (e.g. Georgia__ or Georgia__, can__ or can__).
+`Anonymous hyperlinks`__ are also possible
+if you don't want to name your hyperlinks,
+or if you want two hyperlinks with the same text
+(e.g. Georgia__ or Georgia__, can__ or can__).
 
 __ http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#anonymous-hyperlinks
 __ https://en.wiktionary.org/wiki/Georgia#Etymology_1
