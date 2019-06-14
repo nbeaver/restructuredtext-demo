@@ -12,6 +12,12 @@ If you are reading an output format like HTML,
 the source file is `<../readme.rst>`_.
 If you are reading on Github,
 the source file is `<./readme.rst>`_.
+(Note that Github does not support all reStructuredText directives;
+notably the `math directive`_ is `not supported`_ `at all`_ as of June 2019.)
+
+.. _math directive: https://docutils.readthedocs.io/en/sphinx-docs/ref/rst/directives.html?highlight=math#math
+.. _not supported: https://github.com/github/markup/issues/83
+.. _at all: https://github.com/github/markup/issues/274
 
 This is meant to be read from the source file.
 It is more of a template than a tutorial,
