@@ -211,6 +211,37 @@ Displayed math is done like this:
 
   \[ e \vec{v} \times \vec{B} = m \frac{d \vec{v}}{dt} \]
 
+-------------------------
+Superscript and subscript
+-------------------------
+
+Subscripts and superscripts can be done like so:
+:superscript:`this text is superscript`
+:subscript:`this text is subscript`.
+
+If you want the superscript right after some text
+without additional space,
+use a backslash preceding the space.
+For example: the density of lead at standard temperature and pressure
+is 11.34 g/cm\ :sup:`3`.
+
+This is sufficient for exponents and simple chemical reactions,
+such as lithium uptake reaction for the cathode material
+in a lithium iron phosphate battery:
+
+FePO\ :sub:`4` + Li\ :sup:`+` + e\ :sup:`-` →  LiFePO\ :sub:`4`
+
+However, it is not sufficient for more complex formatting
+such as isotopes. However, this can be done reasonably well in math mode.
+Here is a fusion reaction between deuterium and tritium:
+
+.. math::
+    ^{2}_{1}\mathrm{D} + ^{3}_{1}\mathrm{T} \to
+    ^{4}_{2}\mathrm{He} \mathrm{(3.5 MeV)} +
+    n^{0} \mathrm{(14.1 MeV)}
+
+http://docutils.sourceforge.net/docs/ref/rst/roles.html#subscript
+
 -----------------------
 Footnotes and citations
 -----------------------
