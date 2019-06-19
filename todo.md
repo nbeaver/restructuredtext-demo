@@ -1,2 +1,4 @@
 - [ ] Link to sections of official documentation
+  - http://docutils.sourceforge.net/docs/ref/rst/directives.html
+  - http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
 - [ ] Substitutions

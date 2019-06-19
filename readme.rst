@@ -211,6 +211,11 @@ Displayed math is done like this:
 
   \[ e \vec{v} \times \vec{B} = m \frac{d \vec{v}}{dt} \]
 
+References:
+
+- http://docutils.sourceforge.net/docs/ref/rst/roles.html#math
+- http://docutils.sourceforge.net/docs/ref/rst/directives.html#math
+
 -------------------------
 Superscript and subscript
 -------------------------
@@ -240,7 +245,9 @@ Here is a fusion reaction between deuterium and tritium:
     ^{4}_{2}\mathrm{He} \mathrm{(3.5 MeV)} +
     n^{0} \mathrm{(14.1 MeV)}
 
-http://docutils.sourceforge.net/docs/ref/rst/roles.html#subscript
+References:
+
+- http://docutils.sourceforge.net/docs/ref/rst/roles.html#subscript
 
 -----------------------
 Footnotes and citations
