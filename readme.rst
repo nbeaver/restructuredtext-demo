@@ -132,6 +132,33 @@ Absolute links are done similarly.
 - `</var/>`_
 - `<C:/Users>`_
 
+------
+Images
+------
+
+Path to image on Github page:
+
+.. image:: birthday-paradox.png
+   :width: 463px
+   :alt: the birthday paradox
+   :target: https://commons.wikimedia.org/wiki/File:050329-birthday1.png
+
+Path to image on local version:
+
+.. image:: ../birthday-paradox.png
+   :width: 463px
+   :alt: the birthday paradox
+   :target: https://commons.wikimedia.org/wiki/File:050329-birthday1.png
+
+In HTML output, this generates an ``img`` tag.
+A limited subset of image attributes are supported,
+including ``alt``, ``height``, ``width``, ``scale``, ``align``, ``target``.
+The ``height`` and ``width`` attributes can be expressed in units of length
+like pixels, or as a percentage of the page.
+More documentation here:
+
+http://docutils.sourceforge.net/docs/ref/rst/directives.html#image
+
 ----------------------------------------
 Internal hyperlinks and cross references
 ----------------------------------------
