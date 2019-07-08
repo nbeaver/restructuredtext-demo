@@ -153,6 +153,15 @@ Path to image on local version:
 In HTML output, this generates an ``img`` tag.
 A limited subset of image attributes are supported,
 including ``alt``, ``height``, ``width``, ``scale``, ``align``, ``target``.
+
+Tags can be wrapped by aligning with the indentation:
+
+.. image:: ../birthday-paradox.png
+   :width: 463px
+   :target: https://commons.wikimedia.org/wiki/File:050329-birthday1.png
+   :alt: This is a very long alt tag that continues on and is eventually
+         wrapped onto the next line.
+
 The ``height`` and ``width`` attributes can be expressed in units of length
 like pixels, or as a percentage of the page.
 More documentation here:
