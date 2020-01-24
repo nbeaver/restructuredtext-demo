@@ -281,9 +281,23 @@ Here is a fusion reaction between deuterium and tritium:
     ^{4}_{2}\mathrm{He} \mathrm{(3.5 MeV)} +
     n^{0} \mathrm{(14.1 MeV)}
 
+Writing out chemical formulas repeatedly with ``:sup:`` and ``:sub:``
+can get tiresome.
+To make this easier, we can use the ``replace::`` directive like so:
+
+.. |H2O| replace:: H\ :sub:`2`\ O
+.. |H2| replace:: H\ :sub:`2`
+.. |O2| replace:: O\ :sub:`2`
+
+Now we can use them like this:
+
+2 |H2| + |O2| → 2 |H2O|
+
 References:
 
 - http://docutils.sourceforge.net/docs/ref/rst/roles.html#subscript
+
+- https://docutils.sourceforge.io/docs/ref/rst/directives.html#replacement-text
 
 -----------------------
 Footnotes and citations
