@@ -165,6 +165,11 @@ Tags can be wrapped by aligning with the indentation:
 
 The ``height`` and ``width`` attributes can be expressed in units of length
 like pixels, or as a percentage of the page.
+
+.. image:: ../birthday-paradox.png
+   :width: 85%
+   :alt: This image has a width that is 85% of the width of the page.
+
 More documentation here:
 
 http://docutils.sourceforge.net/docs/ref/rst/directives.html#image
