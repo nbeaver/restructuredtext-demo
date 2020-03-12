@@ -143,7 +143,8 @@ Path to image on Github page:
    :alt: the birthday paradox
    :target: https://commons.wikimedia.org/wiki/File:050329-birthday1.png
 
-Path to image on local version:
+Path to image on local version
+(HTML file is in ``out/``, so image is in parent directory):
 
 .. image:: ../birthday-paradox.png
    :width: 463px
