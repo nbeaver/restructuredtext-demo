@@ -278,6 +278,10 @@ in a lithium iron phosphate battery:
 
 FePO\ :sub:`4` + Li\ :sup:`+` + e\ :sup:`-` →  LiFePO\ :sub:`4`
 
+or the thermite reaction:
+
+2 Al + Fe\ :sub:`2`\ O\ :sub:`3` → 2 Fe + Al\ :sub:`2`\ O\ :sub:`3`
+
 However, it is not sufficient for more complex formatting
 such as isotopes. However, this can be done reasonably well in math mode.
 Here is a fusion reaction between deuterium and tritium:
