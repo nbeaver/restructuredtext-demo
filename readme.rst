@@ -44,16 +44,36 @@ or ``make all`` to generate all possible formats.
 Hyperlinks to URLs
 ------------------
 
-Plain hyperlinks will usually work:
+Plain URLs will usually create a `standalone hyperlink`_:
 
 https://en.wikipedia.org/wiki/ReStructuredText
 
-The `reStructuredText specification`_ is on Sourceforge,
-as is the `docutils Quick Reference`_.
+If there are underscores or asterisks in the URL,
+`the bare URL may not work`_,
+in which case escape each with a backslash
+or use the explicit hyperlink syntax:
 
-The `Wikipedia page`_ on reST is also helpful,
-as is the Sphinx_ documentation generator page.
+https://en.wikipedia.org/wiki/Cluster\_(spacecraft)#Launch_failure>
 
+`<https://en.wikipedia.org/wiki/Cluster_(spacecraft)#Launch_failure>`_
+
+<http://web.archive.org/web/\*/http://ntrs.nasa.gov/\*
+
+`<http://web.archive.org/web/*/http://ntrs.nasa.gov/*>`_
+
+Unlike Markdown, parentheses in URLs do not need to be escaped.
+
+`Named hyperlink targets`_ make the markup easier to read, e.g.:
+
+    The `reStructuredText specification`_ is on Sourceforge,
+    as is the `docutils Quick Reference`_.
+
+    The `Wikipedia page`_ on reST is also helpful,
+    as is the Sphinx_ documentation generator page.
+
+.. _the bare URL may not work: https://sourceforge.net/p/docutils/bugs/336/
+.. _named hyperlink targets: https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#hyperlink-targets
+.. _standalone hyperlink: https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#standalone-hyperlink
 .. _Sphinx: http://sphinx-doc.org/rest.html
 .. _reStructuredText specification: http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
 .. _Wikipedia page: https://en.wikipedia.org/wiki/ReStructuredText
